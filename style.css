@@ -9,17 +9,20 @@
     --primery:#0198E9;
     --secoundery:#0970CD;
 }
+body{
+    background-color: #fafafa;
+}
 header{
     background-color: #FBFBFB;
-    padding-top: 33px;
-    padding-bottom: 10px;
+    padding-top: 2.0625rem;
+    padding-bottom: .625rem;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0,.25);
 -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0,.25);
 -moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0,.25);
 }
 .container{
-    max-width: 1400px;
-    height: 100px;
+    max-width: 87.5rem;
+    height: 6.25rem;
     margin: 0 auto;
 }
 header nav{
@@ -29,20 +32,20 @@ header nav{
 }
 header nav input{
     width: 100%;
-    padding: 13px 20px;
+    padding: .8125rem 1.25rem;
     box-sizing: border-box;
-    border-radius: 5px;
+    border-radius: .3125rem;
     background: #F1F1F1;
     border: none;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
 }
 header nav ul{
     display: flex;
     list-style: none;
-    gap: 40px;
-    font-size: 16px;
+    gap: 2.5rem;
+    font-size: 1rem;
     font-weight: 400;
      font-family: "Poppins", sans-serif;
 }
@@ -58,40 +61,40 @@ right: 0;
 transform: translateY(-50%);
 border: none;
 background-color: var(--primery);
-border-top-right-radius:5px ;
-border-bottom-right-radius:5px ;
+border-top-right-radius:.3125rem ;
+border-bottom-right-radius:.3125rem ;
 
 }
 header nav form button .fa-solid {
- font-size: 22px;
- padding: 14px 18px;
+ font-size: 1.375rem;
+ padding: .875rem 1.125rem;
  color: #FFFFFF;
  cursor: pointer;
 }
 header nav ul li .icon{
-    margin-right: 6px;
+    margin-right: .375rem;
 }
 header nav ul li span{
     display: block;
-height: 20px;
-width: 20px;
+height: 1.25rem;
+width: 1.25rem;
 background-color: #FF5D5D;
 border-radius: 50%;
 text-align: center;
 color: #FFFFFF;
-font-size: 12px;
+font-size: .75rem;
 font-weight: 400;
  font-family: "Poppins", sans-serif;
 }
 /* =============nav-bottom-start================= */
 header .nav-bottom{
-    margin-top: 34px;
+    margin-top: 2.125rem;
 }
 header .nav-bottom ol{
     display: flex;
     justify-content: space-around;
     list-style: none;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
      font-family: "Poppins", sans-serif;
 }
@@ -99,59 +102,59 @@ header .nav-bottom ol{
 
 /* =========heru-start===================== */
 #heru{
-    margin-top: 13px;
-    height: 563px;
+    margin-top: .8125rem;
+    height: 35.1875rem;
 }
 #heru .heru-container .hero-man-img{
 background-image: url(./image/hero-man-image.png);
-height: 563px;
+height: 35.1875rem;
 background-repeat: no-repeat;
- width: 925px;
+ width: 57.8125rem;
 }
 #heru .heru-container .hero-man-img .hero-man-text{
-    padding-top: 159px;
-    margin-left: 60px;
+    padding-top: 9.9375rem;
+    margin-left: 3.75rem;
 }
 #heru .heru-container .hero-man-img .hero-man-text h1{
-    font-size: 45px;
+    font-size: 2.8125rem;
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
     color: var(--secoundery);
-    width: 486px;
-    margin-bottom: 27px;
+    width: 30.375rem;
+    margin-bottom: 1.6875rem;
 }
 #heru .heru-container .hero-man-img .hero-man-text p{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
-    width: 418px;
+    width: 26.125rem;
     color: #646464;
-    margin-bottom: 27px;
+    margin-bottom: 1.6875rem;
 }
 #heru .heru-container .hero-man-img .hero-man-text button{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
     color: #FFFFFF;
     background-color: var(--primery);
     border: none;
-    padding: 10px 25px;
-    border-radius: 5px;
+    padding: .625rem 1.5625rem;
+    border-radius: .3125rem;
 
 }
 #heru .heru-container .heru-secon-con .hero-man-2{
     background-image: url(./image/hero-man-2.png);
     background-repeat: no-repeat;
-    height: 267px;
-    width: 448px;
+    height: 16.6875rem;
+    width: 28rem;
  
 }
 #heru .heru-container .heru-secon-con .hero-libstic-img {
     background-image: url(./image/hero-libstic-img.png);
       background-repeat: no-repeat;
-    height: 267px;
-     width: 448px;
-     margin-top: 28px;
+    height: 16.6875rem;
+     width: 28rem;
+     margin-top: 1.75rem;
 }
 #heru .heru-container{
     display: flex;
@@ -161,8 +164,8 @@ background-repeat: no-repeat;
 
 /* =========================Category-start================ */
 #category{
-    margin-top: 50px;
-    height: 281px;
+    margin-top: 3.125rem;
+    height: 17.5625rem;
 }
 #category .category-container{
     display: flex;
@@ -170,12 +173,113 @@ background-repeat: no-repeat;
     justify-content: space-between;
 }
 #category .category-container img{
-    width: 270px;
+    width: 16.875rem;
 }
 #category h2{
-    font-size: 26px;
+    font-size: 1.625rem;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
     color: #383838;
-    margin-bottom: 32px;
+    margin-bottom: 2rem;
 }
+/* =========================Category-end================ */
+
+/* =======================Flash-start======================== */
+#Flash{
+    margin-top: 2.8125rem;
+    height: 565px;
+}
+#Flash h2{
+   font-size: 1.625rem;
+   font-weight: 600;
+   font-family: "Poppins", sans-serif;
+   line-height: 4rem;
+   color: #2E2E2E;
+}
+#Flash .flash-text-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#Flash .flash-text-container button{
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #757575;
+    background-color: transparent;
+    border: none;
+}
+#Flash .flash-text-container button .fa-solid{
+    margin-left: 1rem;
+}
+#Flash .flash-text-container{
+    margin-bottom: 1.25rem;
+}
+#Flash .card{
+    background-color: #FFFFFF;
+    width: 20.75rem;
+    border-radius: .625rem;
+    padding-top: .5rem;
+    padding-bottom: .9375rem;
+    border: .0625rem solid #E9E9E9;
+   
+}
+#Flash .card img{
+    display: block;
+    margin: 0 auto;
+}
+#Flash .card p{
+    font-size: 1.125rem;
+    font-weight: 400;
+     font-family: "Poppins", sans-serif;
+     margin-top: .625rem;
+     margin-left: .875rem;
+}
+#Flash .card h5{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.375rem;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin-left: .875rem;
+    margin-right: 1.25rem;
+    color: var(--secoundery);
+    margin-top: .625rem;
+}
+#Flash .card h5 .fa-basket-shopping{
+    color: var(--primery);
+    margin-top: .3125rem;
+}
+#Flash .flash-image-container{
+    display: flex;
+    justify-content: space-between;
+}
+/* =======================Flash-end======================== */
+/* ========================Featured-start================ */
+#Featured{
+    margin-top: 3.125rem;
+}
+#Featured .Featured-text-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#Featured .Featured-text-container button{
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #757575;
+    background-color: transparent;
+    border: none;
+}
+#Featured .Featured-text-container button .fa-solid{
+    margin-left: 1rem;
+}
+#Featured h2{
+   font-size: 1.625rem;
+   font-weight: 600;
+   font-family: "Poppins", sans-serif;
+   line-height: 4rem;
+   color: #2E2E2E;
+}
+/* ========================Featured-end================ */
