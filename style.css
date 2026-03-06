@@ -234,6 +234,7 @@ background-repeat: no-repeat;
      font-family: "Poppins", sans-serif;
      margin-top: .625rem;
      margin-left: .875rem;
+     height: 2.875rem;
 }
 #Flash .card h5{
     display: flex;
@@ -258,11 +259,14 @@ background-repeat: no-repeat;
 /* ========================Featured-start================ */
 #Featured{
     margin-top: 3.125rem;
+    height: 133.75rem;
+    padding-bottom: 2.5rem;
 }
 #Featured .Featured-text-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 1.25rem;
 }
 #Featured .Featured-text-container button{
     font-size: 1rem;
@@ -282,4 +286,155 @@ background-repeat: no-repeat;
    line-height: 4rem;
    color: #2E2E2E;
 }
+
+#Featured .card{
+    background-color: #FFFFFF;
+    width: 20.75rem;
+    border-radius: .625rem;
+    padding-top: .5rem;
+    padding-bottom: .9375rem;
+    border: .0625rem solid #E9E9E9;
+    margin-bottom: 1.5625rem;
+   
+}
+#Featured .card img{
+    display: block;
+    margin: 0 auto;
+}
+#Featured .card p{
+    font-size: 1.125rem;
+    font-weight: 400;
+     font-family: "Poppins", sans-serif;
+     margin-top: .625rem;
+     margin-left: .875rem;
+     height: 2.875rem;
+}
+#Featured .card h5{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.375rem;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin-left: .875rem;
+    margin-right: 1.25rem;
+    color: var(--secoundery);
+    margin-top: .625rem;
+}
+#Featured .card h5 .fa-basket-shopping{
+    color: var(--primery);
+    margin-top: .3125rem;
+}
+#Featured .Featured-image-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+#Featured .Show{
+ display: block;
+ margin: 0 auto;
+ font-size: 1rem;
+ font-weight: 500;
+ font-family: "Poppins", sans-serif;
+ color: #ffffff;
+ padding: .625rem 1.625rem;
+ background-color: #34ADED;
+ border-radius: 5.0625rem;
+ text-transform: uppercase;
+ border: none;
+ margin-top: 1.5rem;
+}
+#Featured .Show .fa-angle-down{
+    margin-left: .25rem;
+    font-size: 1.125rem;
+}
 /* ========================Featured-end================ */
+/* =====================SHIPPING part-start=============== */
+#SHIPPING {
+    background-color: #ffffff;
+    padding-top: 3.3125rem;
+    border-bottom: 1px solid #E5E5E5;
+}
+#SHIPPING .shipping-container .shiping-child{
+    display: flex;
+    align-items: center;
+}
+#SHIPPING .shipping-container .shiping-child p{
+    font-size: 1.25rem;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+}
+#SHIPPING .shipping-container .shiping-child .p-tag{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #757575;
+    text-transform: capitalize;
+}
+#SHIPPING .shipping-container .shiping-child .fa-solid{
+    font-size: 2.75rem;
+    margin-right: 1.125rem;
+    color: var(--primery);
+}
+#SHIPPING .shipping-container {
+    display: flex;
+    justify-content: space-between;
+}
+/* =====================SHIPPING part-start=============== */
+/* =======================footer-start================= */
+footer{
+    background-color: #ffffff;
+    padding-top: 3.75rem;
+}
+footer .footer-logo{
+    display: block;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0,.25));
+}
+footer .footer-top-container{
+    display: flex;
+    justify-content: space-between;
+}
+footer .footer-top-container p{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+footer .footer-top-container p{
+    width: 25rem;
+    margin-top: 2.1875rem;
+    line-height: 1.75rem;
+    color: rgba(51, 51, 51,.8);
+    margin-bottom: 1.625rem;
+}
+footer .footer-top-container h4{
+    font-size: 1.25rem;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #333333;
+    margin-bottom: 25px;
+}
+footer .footer-top-container ul{
+    list-style: none;
+    font-size: 1.125rem;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    line-height: 44px;
+    color: rgba(51, 51, 51,.8);
+}
+footer .footer-top-container .f-p-tag{
+    margin-top: 1.5625rem;
+}
+footer .footer-top-container .f-img{
+    margin-right: 1.25rem;
+}
+footer .footer-top-container .con{
+    display: flex;
+}
+footer .footer-top-container .con h6{
+    font-size: 1.125rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+}
+/* ======================footer-end===================== */
