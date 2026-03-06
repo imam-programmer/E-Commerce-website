@@ -22,13 +22,13 @@ header{
 }
 .container{
     max-width: 87.5rem;
-    height: 6.25rem;
     margin: 0 auto;
 }
 header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 header nav input{
     width: 100%;
@@ -75,7 +75,7 @@ header nav ul li .icon{
     margin-right: .375rem;
 }
 header nav ul li span{
-    display: block;
+display: block;
 height: 1.25rem;
 width: 1.25rem;
 background-color: #FF5D5D;
@@ -84,7 +84,7 @@ text-align: center;
 color: #FFFFFF;
 font-size: .75rem;
 font-weight: 400;
- font-family: "Poppins", sans-serif;
+font-family: "Poppins", sans-serif;
 }
 /* =============nav-bottom-start================= */
 header .nav-bottom{
@@ -354,6 +354,7 @@ background-repeat: no-repeat;
     background-color: #ffffff;
     padding-top: 3.3125rem;
     border-bottom: 1px solid #E5E5E5;
+    padding-bottom: 3.125rem;
 }
 #SHIPPING .shipping-container .shiping-child{
     display: flex;
@@ -382,10 +383,12 @@ background-repeat: no-repeat;
     justify-content: space-between;
 }
 /* =====================SHIPPING part-start=============== */
-/* =======================footer-start================= */
-footer{
+/* =======================footer-top-start================= */
+#footer-top{
     background-color: #ffffff;
     padding-top: 3.75rem;
+    height: 336px;
+    border-bottom: 1px solid #E5E5E5;  
 }
 footer .footer-logo{
     display: block;
@@ -394,6 +397,9 @@ footer .footer-logo{
 footer .footer-top-container{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 72px;
+    
+
 }
 footer .footer-top-container p{
     font-size: 1rem;
@@ -430,6 +436,7 @@ footer .footer-top-container .f-img{
 }
 footer .footer-top-container .con{
     display: flex;
+    gap: 1.25rem;
 }
 footer .footer-top-container .con h6{
     font-size: 1.125rem;
@@ -437,4 +444,39 @@ footer .footer-top-container .con h6{
     font-weight: 400;
     line-height: 24px;
 }
-/* ======================footer-end===================== */
+footer .footer-top-container .con h3{
+    font-size: 1.75rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--primery);
+    margin-top: .375rem;
+}
+/* ======================footer-top-end===================== */
+/* =======================footer-botton-start================= */
+#footer-bottom {
+    padding: 15px 0;
+}
+#footer-bottom .footer-bottom-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer-bottom .footer-bottom-container pre{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #757575;
+}
+#footer-bottom .f-b-image{
+    display: flex;
+    align-items: center;
+}
+#footer-bottom .f-b-image p{
+   font-size: 18px;
+   font-weight: 600;
+   color: var(--primery);
+   font-family: "Poppins", sans-serif;
+   margin-right: 3px;
+}
+/* =======================footer-botton-end================= */
