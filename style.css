@@ -21,14 +21,26 @@ header{
 -moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0,.25);
 }
 .container{
-    max-width: 87.5rem;
+    max-width: 1400px;
     margin: 0 auto;
 }
 header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+}
+.nav-bottom #click{
+    display: none;
+}
+.nav-bottom label{
+    font-size: 25px;
+    display: none;
+}
+nav .ul-li{
+    display: flex;
+    gap: 9px;
+    align-items: center;
 }
 header nav input{
     width: 100%;
@@ -74,7 +86,7 @@ header nav form button .fa-solid {
 header nav ul li .icon{
     margin-right: .375rem;
 }
-header nav ul li span{
+header nav ul li .s-pan{
 display: block;
 height: 1.25rem;
 width: 1.25rem;

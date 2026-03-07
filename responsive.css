@@ -1,0 +1,59 @@
+@media (min-width:320px) and (max-width:575px) {
+.nav-bottom label{
+    display: block;
+  }
+  nav ul li span{
+    display: none;
+  }
+nav .ul-li{
+    gap: 0px;
+}
+header nav ul li .s-pan{
+    margin-left: -10px;
+    background-color: #0198E9;
+}
+header{
+    padding-top: 10px;
+    padding-right:10px;
+     padding-left:10px;
+}
+header nav{
+    position: relative;
+}
+header nav ul{
+    position: absolute;
+    right: 0;
+    top: 50px;
+    gap: 10px;
+}
+header ol{
+    position: absolute;
+    flex-direction: column;
+    width: 100%;
+    background-color: #0198E9;
+    left:-100%;
+    top: 100px;
+    text-align: center;
+    transition: 0.4s;
+    color: white;
+    gap: 10px;
+    padding: 10px 0;
+}
+#click:checked ~ ol{
+    left: 0;
+}
+header .nav-bottom{
+    margin-top: 0.5rem;
+}
+header nav input {
+    font-size: 12px;
+}
+header nav form button .fa-solid {
+    font-size: 16px;
+    padding: .875rem 10px;
+}
+header nav img{
+    width: 100px;
+}
+/* =============header-end======================== */
+}
