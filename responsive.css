@@ -558,7 +558,7 @@ footer .footer-top-container .f-img {
 }
 @media (min-width:384px) and (max-width:390px) {
 #SHIPPING {
-    margin-top:305px;
+    margin-top:315px;
 }
 }
 @media (min-width:391px) and (max-width:400px) {
@@ -579,11 +579,6 @@ footer .footer-top-container .f-img {
 @media (min-width:421px) and (max-width:430px) {
 #SHIPPING {
     margin-top:465px;
-}
-}
-@media (min-width:431px) and (max-width:440px) {
-#SHIPPING {
-    margin-top:505px;
 }
 }
 @media (min-width:431px) and (max-width:440px) {
