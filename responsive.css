@@ -15,7 +15,9 @@ header nav ul li .s-pan{
 header{
     padding-top: 10px;
     padding-right:10px;
-     padding-left:10px;
+    padding-left:10px;
+    padding-bottom: 0.225rem;
+   
 }
 header nav{
     position: relative;
@@ -23,37 +25,640 @@ header nav{
 header nav ul{
     position: absolute;
     right: 0;
-    top: 50px;
+    top: 55px;
     gap: 10px;
+    align-items: center;
 }
-header ol{
+header .nav-bottom ol{
     position: absolute;
     flex-direction: column;
     width: 100%;
+    height: 300px;
     background-color: #0198E9;
     left:-100%;
-    top: 100px;
+    top: 92px;
     text-align: center;
     transition: 0.4s;
     color: white;
     gap: 10px;
     padding: 10px 0;
+    font-size: 12px;
 }
 #click:checked ~ ol{
     left: 0;
 }
 header .nav-bottom{
-    margin-top: 0.5rem;
+    margin-top: 14px;
 }
 header nav input {
-    font-size: 12px;
+    font-size: 16px;
+    padding: 8px 13px;
 }
 header nav form button .fa-solid {
-    font-size: 16px;
-    padding: .875rem 10px;
+    font-size: 19px;
+    padding: 11px 10px;
 }
 header nav img{
     width: 100px;
 }
 /* =============header-end======================== */
+/* ===============heru-start========================= */
+#heru .heru-container .heru-secon-con .hero-man-2 {
+    display: none;
 }
+#heru .heru-container .heru-secon-con .hero-libstic-img {
+    display: none;
+}
+#heru .heru-container .hero-man-img .hero-man-text h1 {
+    width: 200px;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+#heru .heru-container .hero-man-img .hero-man-text p {
+    font-size: 12px;
+    width: 184px;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+#heru .heru-container .hero-man-img .hero-man-text {
+    padding-top: 21px;
+    margin-left: 10px;
+}
+#heru .heru-container .hero-man-img {
+    width: 100%;
+    background-size: contain;
+    
+}
+#heru {
+    padding: 0 10px;
+}
+#heru .heru-container .hero-man-img .hero-man-text button {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #FFFFFF;
+    background-color: var(--primery);
+    border: none;
+    padding: 5px 16px;
+    border-radius: 3px;
+}
+/* =======================heru-end=========================== */
+/* ========================category-start========================= */
+#category {
+    margin-top: -22.125rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#category h2 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+#category .category-container img {
+    width: 50%;
+}
+/* ========================category-end========================= */
+/* =======================Flash-start======================= */
+#Flash h2 {
+    font-size: 1rem;
+}
+#Flash {
+    margin-top: 5.8125rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 480px;
+}
+#Flash .flash-text-container button {
+    font-size: 12px;
+}
+#Flash .flash-text-container {
+    margin-bottom:0px;
+}
+#Flash .flash-image-container {
+    flex-wrap: wrap;
+    margin-top: -10px;
+}
+#Flash .card img {
+    width: 95%;
+}
+#Flash .card {
+    width: 48%;
+    padding-top: 5px;
+    padding-bottom:5px;
+    margin-bottom: 10px;
+}
+#Flash .card p {
+    font-size: 12px;
+    margin-top: 8px;
+    margin-left: 6px;
+    margin-right: 5px;
+    height: 16px;
+}
+#Flash .card h5 {
+    font-size: 14px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 21px;
+}
+/* =======================Flash-end======================= */
+/* ====================Featured-start======================= */
+#Featured h2 {
+    font-size: 1rem;
+}
+#Featured .Featured-text-container button {
+    font-size: 12px;
+}
+#Featured .card {
+    width: 48%;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+#Featured .card img {
+    width: 95%;
+}
+#Featured .card p {
+    font-size: 12px;
+    margin-top: 8px;
+    margin-left: 6px;
+    margin-right: 5px;
+    height: 16px;
+}
+#Featured .card h5 {
+    font-size: 14px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 21px;
+}
+#Featured {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#Featured .Featured-text-container {
+    margin-bottom: 0;
+}
+#Featured .Show {
+    font-size: 12px;
+    padding: 11px 19px;
+    margin-top: 10px;
+}
+#Featured .Show .fa-angle-down {
+    font-size: 16px;
+}
+#Featured {
+    padding-bottom: 10px;
+     height: 2000px;
+}
+#Featured .Featured-image-container{
+    margin-top: -10px;
+}
+/* ====================Featured-end======================= */
+/* ====================SHIPPING-start======================= */
+#SHIPPING {
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 0;
+    padding-left: 10px;
+}
+#SHIPPING .shipping-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#SHIPPING .shipping-container .shiping-child p {
+    font-size: 1rem;
+}
+#SHIPPING .shipping-container .shiping-child {
+    margin-bottom: 15px;
+}
+#SHIPPING .shipping-container .shiping-child .p-tag {
+    font-size: 12px;
+}
+#SHIPPING .shipping-container .shiping-child .fa-solid {
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+/* ======================SHIPPING-end===================== */
+/* ======================footer-top-start================= */
+#footer-top {
+    padding-top: 15px;
+     height: 590px;
+    
+}
+footer .footer-top-container {
+    flex-direction: column-reverse;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+footer .footer-logo {
+    display: none;
+}
+footer .footer-top-container h4 {
+    font-size: 1rem;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+footer .footer-top-container p {
+    display: none;
+}
+footer .footer-top-container .f-p-tag {
+    margin-top: 5px;
+    font-size: 12px;
+    width: 100%;
+    line-height: 20px;
+    display: block;
+}
+footer .footer-top-container .con h6 {
+    font-size: 16px;
+}
+footer .footer-top-container .con h3 {
+    font-size: 20px;
+    margin-top: 0;
+}
+footer .footer-top-container .con {
+    margin-bottom: 0px;
+    gap: 10px;
+}
+footer .footer-top-container ul {
+    font-size: 12px;
+    line-height: 25px;
+}
+footer .footer-top-container .f-img {
+    margin-right: 16px;
+    margin-top: 15px;
+}
+/* ======================footer-top-start================= */
+/* ==================footer-bottom-start==================== */
+#footer-bottom .footer-bottom-container pre {
+    font-size: 12px;
+    margin: 0 auto;
+}
+#footer-bottom .f-b-image p {
+    display: none;
+}
+#footer-bottom .footer-bottom-container img{
+    display: none;
+}
+/* ==================footer-bottom-end==================== */
+}
+/* ============================phone-device heru & category responsive-start=================== */
+@media (min-width:360px) and (max-width:414px) {
+    #heru .heru-container .hero-man-img .hero-man-text h1 {
+    width: 200px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#heru .heru-container .hero-man-img .hero-man-text p {
+    font-size: 14px;
+    width: 50%;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+#heru .heru-container .hero-man-img .hero-man-text {
+    padding-top: 15px;
+    margin-left: 10px;
+}
+#category {
+    margin-top: -320px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+}
+@media (min-width:415px) and (max-width:439px) {
+    #heru .heru-container .hero-man-img .hero-man-text h1 {
+    width: 250px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+#heru .heru-container .hero-man-img .hero-man-text p {
+    font-size: 15px;
+    width: 55%;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+#heru .heru-container .hero-man-img .hero-man-text {
+    padding-top: 40px;
+    margin-left: 16px;
+}
+#category {
+    margin-top: -300px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+}
+@media (min-width:440px) and (max-width:480px) {
+#heru .heru-container .hero-man-img .hero-man-text h1 {
+    width: 250px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+#heru .heru-container .hero-man-img .hero-man-text p {
+    font-size: 16px;
+    width: 55%;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+#heru .heru-container .hero-man-img .hero-man-text {
+    padding-top: 40px;
+    margin-left: 16px;
+}
+#heru .heru-container .hero-man-img .hero-man-text button {
+    font-size: 15px;
+}
+#category {
+    margin-top: -275px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+}
+@media (min-width:481px) and (max-width:575px) {
+#heru .heru-container .hero-man-img .hero-man-text h1 {
+    width: 250px;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+#heru .heru-container .hero-man-img .hero-man-text p {
+    font-size: 16px;
+    width: 55%;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+#heru .heru-container .hero-man-img .hero-man-text {
+    padding-top: 45px;
+    margin-left: 18px;
+}
+#heru .heru-container .hero-man-img .hero-man-text button {
+    font-size: 15px;
+    margin-top: 10px;
+}
+#category {
+    margin-top: -260px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+}
+@media (min-width:505px) and (max-width:531px) {
+    #category {
+    margin-top: -245px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+}
+@media (min-width:531px) and (max-width:550px) {
+    #category {
+    margin-top: -230px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+}
+@media (min-width:551px) and (max-width:575px) {
+    #category {
+    margin-top: -218px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+}
+/* ============================phone-device heru & category responsive-end=================== */
+/* ============================phone-device Flash & Featured responsive-start=================== */
+@media (min-width:328px) and (max-width:340px) {
+#Flash {
+    margin-top: 110px;
+}
+#Featured{
+    margin-top: 60px;
+}
+}
+@media (min-width:341px) and (max-width:360px) {
+#Flash {
+    margin-top: 130px;
+}
+#Featured{
+    margin-top: 75px;
+}
+}
+@media (min-width:361px) and (max-width:380px) {
+#Flash {
+    margin-top: 150px;
+}
+#Featured{
+    margin-top: 100px;
+}
+}
+@media (min-width:381px) and (max-width:400px) {
+#Flash {
+    margin-top: 175px;
+}
+#Featured{
+    margin-top: 115px;
+}
+}
+@media (min-width:401px) and (max-width:420px) {
+#Flash {
+    margin-top: 195px;
+}
+#Featured{
+    margin-top: 140px;
+}
+}
+@media (min-width:421px) and (max-width:440px) {
+#Flash {
+    margin-top: 220px;
+}
+#Featured{
+    margin-top: 160px;
+}
+}
+@media (min-width:441px) and (max-width:460px) {
+#Flash {
+    margin-top: 240px;
+}
+#Featured{
+    margin-top: 180px;
+}
+}
+@media (min-width:461px) and (max-width:480px) {
+#Flash {
+    margin-top: 265px;
+}
+#Featured{
+    margin-top: 200px;
+}
+}
+@media (min-width:481px) and (max-width:500px) {
+#Flash {
+    margin-top: 285px;
+}
+#Featured{
+    margin-top: 220px;
+}
+}
+@media (min-width:501px) and (max-width:520px) {
+#Flash {
+    margin-top: 310px;
+}
+#Featured{
+    margin-top: 240px;
+}
+}
+@media (min-width:521px) and (max-width:540px) {
+#Flash {
+    margin-top: 330px;
+}
+#Featured{
+    margin-top: 260px;
+}
+}
+@media (min-width:541px) and (max-width:555px) {
+#Flash {
+    margin-top: 350px;
+}
+#Featured{
+    margin-top: 280px;
+}
+}
+@media (min-width:556px) and (max-width:575px) {
+#Flash {
+    margin-top: 370px;
+}
+#Featured{
+    margin-top: 300px;
+}
+}
+/* ============================phone-device Flash & Featured responsive-end=================== */
+/* =======================SHIPPING responsive-phone device-start====================== */
+@media (min-width:328px) and (max-width:335px) {
+#SHIPPING {
+    margin-top:80px;
+}
+}
+@media (min-width:336px) and (max-width:343px) {
+#SHIPPING {
+    margin-top:110px;
+}
+}
+@media (min-width:344px) and (max-width:352px) {
+#SHIPPING {
+    margin-top:150px;
+}
+}
+@media (min-width:353px) and (max-width:362px) {
+#SHIPPING {
+    margin-top:190px;
+}
+}
+@media (min-width:363px) and (max-width:373px) {
+#SHIPPING {
+    margin-top:235px;
+}
+}
+@media (min-width:374px) and (max-width:383px) {
+#SHIPPING {
+    margin-top:275px;
+}
+}
+@media (min-width:384px) and (max-width:390px) {
+#SHIPPING {
+    margin-top:305px;
+}
+}
+@media (min-width:391px) and (max-width:400px) {
+#SHIPPING {
+    margin-top:345px;
+}
+}
+@media (min-width:401px) and (max-width:410px) {
+#SHIPPING {
+    margin-top:383px;
+}
+}
+@media (min-width:411px) and (max-width:420px) {
+#SHIPPING {
+    margin-top:420px;
+}
+}
+@media (min-width:421px) and (max-width:430px) {
+#SHIPPING {
+    margin-top:465px;
+}
+}
+@media (min-width:431px) and (max-width:440px) {
+#SHIPPING {
+    margin-top:505px;
+}
+}
+@media (min-width:431px) and (max-width:440px) {
+#SHIPPING {
+    margin-top:505px;
+}
+}
+@media (min-width:441px) and (max-width:450px) {
+#SHIPPING {
+    margin-top:545px;
+}
+}
+@media (min-width:451px) and (max-width:460px) {
+#SHIPPING {
+    margin-top:585px;
+}
+}
+@media (min-width:461px) and (max-width:470px) {
+#SHIPPING {
+    margin-top:625px;
+}
+}
+@media (min-width:471px) and (max-width:480px) {
+#SHIPPING {
+    margin-top:665px;
+}
+}
+@media (min-width:481px) and (max-width:490px) {
+#SHIPPING {
+    margin-top:705px;
+}
+}
+@media (min-width:491px) and (max-width:500px) {
+#SHIPPING {
+    margin-top:745px;
+}
+}
+@media (min-width:501px) and (max-width:510px) {
+#SHIPPING {
+    margin-top:785px;
+}
+}
+@media (min-width:511px) and (max-width:520px) {
+#SHIPPING {
+    margin-top:825px;
+}
+}
+@media (min-width:521px) and (max-width:530px) {
+#SHIPPING {
+    margin-top:870px;
+}
+}
+@media (min-width:531px) and (max-width:540px) {
+#SHIPPING {
+    margin-top:910px;
+}
+}
+@media (min-width:541px) and (max-width:550px) {
+#SHIPPING {
+    margin-top:950px;
+}
+}
+@media (min-width:551px) and (max-width:560px) {
+#SHIPPING {
+    margin-top:985px;
+}
+}
+@media (min-width:561px) and (max-width:570px) {
+#SHIPPING {
+    margin-top:1030px;
+}
+}
+@media (min-width:571px) and (max-width:575px) {
+#SHIPPING {
+    margin-top:1050px;
+}
+}
+/* =======================SHIPPING responsive-phone device-end====================== */
