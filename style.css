@@ -90,6 +90,7 @@ header nav ul li .s-pan{
 display: block;
 height: 1.25rem;
 width: 1.25rem;
+line-height: 1.25rem;
 background-color: #FF5D5D;
 border-radius: 50%;
 text-align: center;
