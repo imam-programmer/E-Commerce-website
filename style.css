@@ -160,7 +160,23 @@ background-repeat: no-repeat;
     background-repeat: no-repeat;
     height: 16.6875rem;
     width: 28rem;
+    position: relative;
  
+}
+#heru .heru-container .heru-secon-con .hero-man-2 p{
+    padding: 16px 32px;
+    background-color: rgba(250, 250, 250,.8);
+    width: 268px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    color: var(--primery);
+    border-radius: 5px;
 }
 #heru .heru-container .heru-secon-con .hero-libstic-img {
     background-image: url(./image/hero-libstic-img.png);
@@ -168,6 +184,22 @@ background-repeat: no-repeat;
     height: 16.6875rem;
      width: 28rem;
      margin-top: 1.75rem;
+     position: relative;
+}
+#heru .heru-container .heru-secon-con .hero-libstic-img p{
+    font-size: 21px;
+    color: var(--primery);
+    padding: 16px 32px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    background-color: rgba(250, 250, 250,.8);
+    width: 352px;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    position: absolute;
+    border-radius: 5px;
 }
 #heru .heru-container{
     display: flex;

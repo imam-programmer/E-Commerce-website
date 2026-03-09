@@ -1614,6 +1614,21 @@ header nav form {
 #heru {
     padding: 0 20px;
 }
+#heru .heru-container .heru-secon-con .hero-libstic-img p{
+    font-size: 12px;
+    padding: 16px 32px;
+    width: 190px;
+   bottom: 100px;
+    
+}
+#heru .heru-container .heru-secon-con .hero-man-2 p{
+    padding: 16px 32px;
+    width: 150px;
+    font-size: 12px;
+    bottom: 18px;
+   
+   
+}
 /* =======================heru-end=========================== */
 /* ========================category-start========================= */
 #category {
@@ -1769,6 +1784,19 @@ footer .footer-top-container ul {
 }
 /* ==================footer-bottom-end==================== */
 }
+@media (min-width:1050px) and (max-width:1195px){
+#heru .heru-container .heru-secon-con .hero-libstic-img p{
+   bottom: 90px;
+    
+}
+}
+@media (min-width:1130px) and (max-width:1199px){
+#heru .heru-container .heru-secon-con .hero-libstic-img p{
+   bottom: 80px;
+    
+}
+}
+
 @media (min-width:1000px) and (max-width:1015px){
     #heru .heru-container .heru-secon-con .hero-libstic-img {
     width: 310px;
@@ -1897,4 +1925,432 @@ footer .footer-top-container ul {
     width: 375px;
     height: 220px;
 }
+}
+@media (min-width:1020px) and (max-width:1050px){
+    #heru .heru-container .hero-man-img .hero-man-text {
+    padding-top: 90px;
+   
+}
+}
+@media (min-width:1150px) and (max-width:1199px){
+    #heru .heru-container .hero-man-img .hero-man-text {
+    padding-top: 90px;
+    margin-left: 50px;
+   
+}
+}
+@media (min-width:1090px) and (max-width:1140px){
+#category {
+    margin-top: -110px;
+
+}
+}
+@media (min-width:1141px) and (max-width:1199px){
+#category {
+    margin-top: -85px;
+
+}
+}
+@media (min-width:1150px) and (max-width:1199px){
+#Flash {
+    margin-top:-40px;  
+}
+}
+@media (min-width:1070px) and (max-width:1150px){
+#Featured {
+    margin-top: -130px;
+}
+}
+@media (min-width:1151px) and (max-width:1199px){
+#Featured {
+    margin-top: -110px;
+}
+}
+@media (min-width:1016px) and (max-width:1050px){
+#Featured {
+    height: 1600px;
+}
+}
+@media (min-width:1051px) and (max-width:1090px){
+#Featured {
+    height: 1650px;
+}
+}
+@media (min-width:1091px) and (max-width:1130px){
+#Featured {
+    height: 1700px;
+}
+}
+@media (min-width:1131px) and (max-width:1170px){
+#Featured {
+    height: 1740px;
+}
+}
+@media (min-width:1171px) and (max-width:1199px){
+#Featured {
+    height: 1780px;
+}
+}
+
+/* =========================extra large device responsive start======================== */
+@media (min-width:1200px) and (max-width:1399px) {
+header{
+    padding-right:10px;
+    padding-left:10px;
+   
+}
+header nav form {
+    width: 55%;
+}
+/* =============header-end======================== */
+/* ===============heru-start========================= */
+#heru .heru-container .heru-secon-con .hero-man-2 {
+    width: 370px;
+    background-size: contain;
+    height: 250px;
+}
+#heru .heru-container .heru-secon-con .hero-libstic-img {
+      width: 370px;
+    background-size: contain;
+    margin-top: 0px;
+}
+.heru-secon-con{
+    margin-left: 20px;
+}
+#heru .heru-container .hero-man-img .hero-man-text {
+    padding-top: 70px;
+    margin-left: 30px;
+}
+#heru .heru-container .hero-man-img {
+    background-size: contain;  
+}
+#heru .heru-container .hero-man-img .hero-man-text button {
+    font-size: 20px;
+}
+#heru {
+    padding: 0 20px;
+}
+#heru .heru-container .heru-secon-con .hero-libstic-img p{
+    font-size: 16px;
+    width: 250px;
+    bottom: 60px;
+    
+}
+#heru .heru-container .heru-secon-con .hero-man-2 p{
+    width: 200px;
+    font-size: 16px;
+    bottom: 45px;
+}
+/* =======================heru-end=========================== */
+/* ========================category-start========================= */
+#category {
+    margin-top: -50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#category h2 {
+    margin-bottom: 1rem;
+}
+#category .category-container img {
+    width: 20%;
+}
+/* ========================category-end========================= */
+/* =======================Flash-start======================= */
+
+#Flash {
+    margin-top:0px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#Flash .flash-text-container {
+    margin-bottom:0px;
+}
+#Flash .card img {
+    width: 95%;
+}
+#Flash .card {
+    width: 24%;
+    padding-top: 5px;
+    padding-bottom:5px;
+    margin-bottom: 10px;
+}
+/* =======================Flash-end======================= */
+/* ====================Featured-start======================= */
+#Featured .card {
+    width: 24%;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+#Featured .card img {
+    width: 95%;
+}
+#Featured {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -50px;
+}
+#Featured .Featured-text-container {
+    margin-bottom: 10px;
+}
+#Featured {
+    padding-bottom: 10px;
+    height: 1900px;
+}
+/* ====================Featured-end======================= */
+/* ====================SHIPPING-start======================= */
+#SHIPPING {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* ======================SHIPPING-end===================== */
+/* ======================footer-top-start================= */
+#footer-top {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+footer .footer-top-container p {
+    font-size: 18px;
+}
+footer .footer-top-container ul {
+    text-align: center;
+}
+
+/* ======================footer-top-start================= */
+/* ==================footer-bottom-start==================== */
+#footer-bottom .footer-bottom-container{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* ==================footer-bottom-end==================== */
+}
+@media (min-width:1281px) and (max-width:1399px){
+#heru .heru-container .heru-secon-con .hero-libstic-img p{
+    /* font-size: 16px;
+    width: 250px; */
+    bottom: 50px;
+    
+}
+#heru .heru-container .heru-secon-con .hero-man-2 p{
+    /* width: 200px;
+    font-size: 16px; */
+    bottom: 30px;
+}
+}
+@media (min-width:1221px) and (max-width:1240px){
+#heru .heru-container .heru-secon-con .hero-man-2 {
+    width: 380px;
+    height: 250px;
+}
+#heru .heru-container .heru-secon-con .hero-libstic-img {
+    width: 380px;
+    margin-top: 5px;
+}
+}
+@media (min-width:1241px) and (max-width:1260px){
+#heru .heru-container .heru-secon-con .hero-man-2 {
+    width: 390px;
+    height: 250px;
+}
+#heru .heru-container .heru-secon-con .hero-libstic-img {
+    width: 390px;
+    margin-top: 0px;
+}
+}
+@media (min-width:1261px) and (max-width:1280px){
+#heru .heru-container .heru-secon-con .hero-man-2 {
+    width: 400px;
+    height: 250px;
+}
+#heru .heru-container .heru-secon-con .hero-libstic-img {
+    width: 400px;
+    margin-top: 5px;
+}
+}
+@media (min-width:1281px) and (max-width:1300px){
+#heru .heru-container .heru-secon-con .hero-man-2 {
+    width: 410px;
+    height: 250px;
+}
+#heru .heru-container .heru-secon-con .hero-libstic-img {
+    width: 410px;
+    margin-top: 5px;
+}
+}
+@media (min-width:1301px) and (max-width:1320px){
+#heru .heru-container .heru-secon-con .hero-man-2 {
+    width: 415px;
+    height: 250px;
+}
+#heru .heru-container .heru-secon-con .hero-libstic-img {
+    width: 415px;
+    margin-top:10px;
+}
+}
+@media (min-width:1321px) and (max-width:1340px){
+#heru .heru-container .heru-secon-con .hero-man-2 {
+    width: 420px;
+    height: 255px;
+}
+#heru .heru-container .heru-secon-con .hero-libstic-img {
+    width: 420px;
+    margin-top:10px;
+}
+}
+@media (min-width:1341px) and (max-width:1360px){
+#heru .heru-container .heru-secon-con .hero-man-2 {
+    width: 425px;
+    height: 255px;
+}
+#heru .heru-container .heru-secon-con .hero-libstic-img {
+    width: 425px;
+    margin-top:15px;
+}
+}
+@media (min-width:1361px) and (max-width:1380px){
+#heru .heru-container .heru-secon-con .hero-man-2 {
+    width: 435px;
+    height: 260px;
+}
+#heru .heru-container .heru-secon-con .hero-libstic-img {
+    width: 435px;
+    margin-top:15px;
+}
+}
+@media (min-width:1381px) and (max-width:1399px){
+#heru .heru-container .heru-secon-con .hero-man-2 {
+    width: 440px;
+    height: 260px;
+}
+#heru .heru-container .heru-secon-con .hero-libstic-img {
+    width: 440px;
+    margin-top:15px;
+}
+}
+@media (min-width:1240px) and (max-width:1280px) {
+    #heru .heru-container .hero-man-img .hero-man-text {
+    padding-top: 90px;
+    margin-left: 45px;
+}
+}
+@media (min-width:1281px) and (max-width:1370px) {
+    #heru .heru-container .hero-man-img .hero-man-text {
+    padding-top: 100px;
+    margin-left: 50px;
+}
+}
+@media (min-width:1371px) and (max-width:1399px) {
+    #heru .heru-container .hero-man-img .hero-man-text {
+    padding-top: 110px;
+    margin-left: 70px;
+}
+}
+@media (min-width:1271px) and (max-width:1350px) {
+#category {
+    margin-top: -10px;
+    
+}
+}
+@media (min-width:1351px) and (max-width:1399px) {
+#category {
+    margin-top: 10px;
+    
+}
+}
+@media (min-width:1311px) and (max-width:1399px) {
+
+#Flash {
+    margin-top:20px;
+}
+#Featured {
+    margin-top: -30px;
+}
+}
+
+@media (min-width:1261px) and (max-width:1300px){
+#Featured {
+    height: 1950px;
+}
+}
+@media (min-width:1301px) and (max-width:1340px){
+#Featured {
+    height: 2000px;
+}
+}
+@media (min-width:1341px) and (max-width:1380px){
+#Featured {
+    height: 2050px;
+}
+}
+@media (min-width:1381px) and (max-width:1399px){
+#Featured {
+    height: 2100px;
+}
+}
+@media (min-width:1400px){
+header{
+    padding-right:10px;
+    padding-left:10px;
+}
+/* =============header-end======================== */
+/* ===============heru-start========================= */
+.heru-secon-con{
+    margin-left: 20px;
+}
+#heru .heru-container .hero-man-img {
+    background-size: contain;  
+}
+#heru .heru-container .hero-man-img .hero-man-text button {
+    font-size: 20px;
+}
+#heru {
+    padding: 0 20px;
+}
+/* =======================heru-end=========================== */
+/* ========================category-start========================= */
+#category {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* ========================category-end========================= */
+/* =======================Flash-start======================= */
+
+#Flash {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* =======================Flash-end======================= */
+/* ====================Featured-start======================= */
+#Featured {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* ====================Featured-end======================= */
+/* ====================SHIPPING-start======================= */
+#SHIPPING {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* ======================SHIPPING-end===================== */
+/* ======================footer-top-start================= */
+#footer-top {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+footer .footer-top-container p {
+    font-size: 18px;
+}
+footer .footer-top-container ul {
+    text-align: center;
+}
+
+/* ======================footer-top-start================= */
+/* ==================footer-bottom-start==================== */
+#footer-bottom .footer-bottom-container{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* ==================footer-bottom-end==================== */
 }
