@@ -1154,3 +1154,272 @@ footer .footer-top-container .f-img {
     margin-top: 425px;
 }
 }
+/* ==================small device responsive end============================ */
+
+
+
+
+
+
+
+/* ===================medium device responsive start=============================== */
+@media (min-width:768px) and (max-width:991px) {
+  nav ul li span{
+    display: none;
+  }
+header nav ul li .s-pan{
+    margin-left: -20px;
+    background-color: #0198E9;
+}
+header{
+    padding-top: 20px;
+    padding-right:10px;
+    padding-left:10px;
+    padding-bottom: 10px;
+   
+}
+header nav ul{
+    gap: 10px;
+}
+header .nav-bottom ol{
+    font-size: 12px;
+}
+header .nav-bottom{
+    margin-top: 20px;
+}
+header nav input {
+    font-size: 16px;
+    padding: 8px 13px;
+}
+header nav form button .fa-solid {
+    font-size: 19px;
+    padding: 11px 10px;
+}
+
+/* =============header-end======================== */
+/* ===============heru-start========================= */
+#heru .heru-container .heru-secon-con .hero-man-2 {
+    display: none;
+}
+#heru .heru-container .heru-secon-con .hero-libstic-img {
+    display: none;
+}
+#heru .heru-container .hero-man-img .hero-man-text h1 {
+    width: 300px;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+#heru .heru-container .hero-man-img .hero-man-text p {
+    font-size: 16px;
+    width: 300px;
+}
+#heru .heru-container .hero-man-img .hero-man-text {
+    padding-top: 51px;
+    margin-left: 25px;
+}
+#heru .heru-container .hero-man-img {
+    background-size: contain;  
+}
+#heru {
+    padding: 0 10px;
+}
+/* =======================heru-end=========================== */
+/* ========================category-start========================= */
+#category {
+    margin-top: -200px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#category h2 {
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+#category .category-container img {
+    width: 30%;
+}
+/* ========================category-end========================= */
+/* =======================Flash-start======================= */
+#Flash h2 {
+    font-size: 20px;
+}
+#Flash {
+    margin-top:0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#Flash .flash-text-container button {
+    font-size: 14px;
+}
+#Flash .flash-text-container {
+    margin-bottom:0px;
+}
+#Flash .flash-image-container {
+    flex-wrap: wrap;
+    margin-top: -10px;
+}
+#Flash .card img {
+    width: 95%;
+}
+#Flash .card {
+    width: 32%;
+    padding-top: 5px;
+    padding-bottom:5px;
+    margin-bottom: 10px;
+}
+#Flash .card p {
+    font-size: 14px;
+    margin-left: 6px;
+    margin-right: 5px;
+    height: 16px;
+    margin-bottom: 30px;
+}
+#Flash .card h5 {
+    font-size: 14px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+/* =======================Flash-end======================= */
+/* ====================Featured-start======================= */
+#Featured h2 {
+    font-size: 20px;
+}
+#Featured .Featured-text-container button {
+    font-size: 14px;
+}
+#Featured .card {
+    width: 32%;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+#Featured .card img {
+    width: 95%;
+}
+#Featured .card p {
+    font-size: 14px;
+    margin-left: 6px;
+    margin-right: 5px;
+    height: 16px;
+    margin-bottom: 30px;
+}
+#Featured .card h5 {
+    font-size: 14px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+#Featured {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#Featured .Featured-text-container {
+    margin-bottom: 0;
+}
+#Featured .Show {
+    font-size: 14px;
+    padding: 11px 19px;
+    margin-top: 10px;
+}
+#Featured .Show .fa-angle-down {
+    font-size: 16px;
+}
+#Featured {
+    padding-bottom: 10px;
+     height: 1800px;
+}
+#Featured .Featured-image-container{
+    margin-top: -10px; 
+}
+/* ====================Featured-end======================= */
+/* ====================SHIPPING-start======================= */
+#SHIPPING {
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#SHIPPING .shipping-container {
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+#SHIPPING .shipping-container .shiping-child p {
+    font-size: 1rem;
+}
+#SHIPPING .shipping-container .shiping-child {
+    margin-bottom: 15px;
+}
+#SHIPPING .shipping-container .shiping-child .p-tag {
+    font-size: 12px;
+}
+#SHIPPING .shipping-container .shiping-child .fa-solid {
+    font-size: 2rem;
+    margin-right: 5px;
+}
+
+/* ======================SHIPPING-end===================== */
+/* ======================footer-top-start================= */
+#footer-top {
+    padding-top: 15px;
+     height: 250px;
+  
+    
+}
+footer .footer-top-container {
+    padding-right: 10px;
+    padding-left: 10px;
+    gap: 40px;
+}
+footer .footer-top-container h4 {
+    font-size: 16px;
+    margin-bottom: 0;
+  
+}
+footer .footer-top-container p {
+    font-size: 12px;
+    width: 150px;
+    margin-top: 10px;
+    line-height: 20px;
+}
+footer .footer-top-container .f-p-tag {
+    margin-top: 15px;
+    font-size: 12px;
+    width: 100%;
+    line-height: 20px;
+    display: block;
+}
+footer .footer-top-container .con h6 {
+    font-size: 11px;
+}
+footer .footer-top-container .con h3 {
+    font-size: 14px;
+    margin-top: 0;
+}
+footer .footer-top-container .con {
+    margin-bottom: 0px;
+    gap: 10px;
+    margin-left: -30px;
+}
+footer .footer-top-container ul {
+    font-size: 12px;
+    line-height: 25px;
+}
+footer .footer-top-container .f-img {
+    margin-right: 9px;
+    margin-top: 0px;
+    width: 25px;
+}
+/* ======================footer-top-start================= */
+/* ==================footer-bottom-start==================== */
+#footer-bottom .footer-bottom-container pre {
+    font-size: 12px;
+    margin: 0 auto;
+}
+#footer-bottom .f-b-image p {
+    display: none;
+}
+#footer-bottom .footer-bottom-container img{
+    display: none;
+}
+/* ==================footer-bottom-end==================== */
+}
